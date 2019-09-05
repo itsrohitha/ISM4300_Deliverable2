@@ -14,6 +14,7 @@ namespace ISM4300_Deliverable2
                 if (grade > 90)
                 {
                     Console.WriteLine("Your grade will be an A!!!");
+                    Console.WriteLine("You've got a bright future ahead of you!!! :D ");
                 }
                 else if (grade > 80 & grade < 89)
                 {
@@ -22,14 +23,17 @@ namespace ISM4300_Deliverable2
                 else if (grade > 70 & grade < 79)
                 {
                     Console.WriteLine("Your grade will be a C");
+                    Console.WriteLine("There's room for improvement");
                 }
                 else if (grade > 60 & grade < 69)
                 {
                     Console.WriteLine("Your grade will be a D");
+                    Console.WriteLine("Is there something going on?");
                 }
                 else if (grade < 59)
                 {
                     Console.WriteLine("Your grade will be an F");
+                    Console.WriteLine("You might wanna consider another career :( ");
                 }
             }
             catch
